@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    char str[20]="The_answer_is_";
+    str[15]='B';
+    printf("%s",str);//here print "The_answer_is_"
+    return 0;
+}
